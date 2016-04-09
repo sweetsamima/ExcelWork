@@ -1,0 +1,39 @@
+#Configuration 
+#Currently supports Firefox, Chrome and IE
+Browser = Chrome
+chromeDriver = C:\\Users\\Samima\\workspace\\chromedriver.exe
+ieDriver = C:\\Users\\Samima\\workspace\\IEDriverServer.exe
+TestURL = http://ebfs.bruteforcesolution.net/ebfs/index.php
+maxWait = 10
+TestData = C:\\Users\\Samima\\workspace\\EndToEnd\\TestCase.xlsx
+TestResult = C:\\Users\\Samima\\workspace\\EndToEnd\\Result.xlsx
+reportURL = C:\\Users\\Samima\\workspace\\FuntionalTesting\\Xreport\\report.html
+
+#Test Data Sheet Name
+InvalidSignUp = Sheet1
+LogIn = User
+
+#Home Page Web Object
+
+brute = //*[@id='search_query_top']	
+feature = //*[@id='homefeatured']/li[1]/div/div[1]/div
+QuickView = //*[@id='homefeatured']/li[1]/div/div[1]/div/a[2]/span
+addQtty = //*[@id='quantity_wanted_p']/a[2]/span/i
+size = //*[@id='group_1']
+color = //*[@id='color_14']
+addToCart = //*[@id='add_to_cart']/button
+cost = //*[@id='our_price_display']
+prossedToCheck = //a[@title='Proceed to checkout']/span
+backBtn = //*[@id='layer_cart']/div[1]/div[2]/div[4]/span/span	
+signIn = login
+	
+#LogIn Page Web Object
+
+ email = email
+ pass = passwd
+ submit = SubmitLogin
+ create = email_create
+ createBtn = SubmitCreate
+
+ 
+ errorMsg = //div[@id='center_column']/div/ol/li

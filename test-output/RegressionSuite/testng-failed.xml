@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="RegTest(failed)">
+    <classes>
+      <class name="com.page.RunTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="AccountVerify"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.page.RunTest -->
+    </classes>
+  </test> <!-- RegTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
